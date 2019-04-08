@@ -9,7 +9,7 @@ using WarehouseAutomation.Model.Entity;
 
 namespace WarehouseAutomation.DAL.Context
 {
-    class ProjectContext: DbContext
+   public class ProjectContext: DbContext
     {
         public ProjectContext()
         {
