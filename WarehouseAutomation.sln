@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseAutomation.DAL", "WarehouseAutomation.DAL\WarehouseAutomation.DAL.csproj", "{7800723B-9367-43F2-8815-C7F607C7CECF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseAutomation.Model", "WarehouseAutomation.Model\WarehouseAutomation.Model.csproj", "{3DCEDBB2-2E7C-4B04-9B87-3507FC5BEFF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseAutomation.UI", "WarehouseAutomation.UI\WarehouseAutomation.UI.csproj", "{D4DF6316-C4CB-499A-9D8B-37DD6C91C3A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7800723B-9367-43F2-8815-C7F607C7CECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7800723B-9367-43F2-8815-C7F607C7CECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7800723B-9367-43F2-8815-C7F607C7CECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCEDBB2-2E7C-4B04-9B87-3507FC5BEFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCEDBB2-2E7C-4B04-9B87-3507FC5BEFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCEDBB2-2E7C-4B04-9B87-3507FC5BEFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCEDBB2-2E7C-4B04-9B87-3507FC5BEFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DF6316-C4CB-499A-9D8B-37DD6C91C3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DF6316-C4CB-499A-9D8B-37DD6C91C3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DF6316-C4CB-499A-9D8B-37DD6C91C3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DF6316-C4CB-499A-9D8B-37DD6C91C3A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

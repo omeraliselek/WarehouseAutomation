@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7800723B-9367-43F2-8815-C7F607C7CECF}</ProjectGuid>
+    <ProjectGuid>{3DCEDBB2-2E7C-4B04-9B87-3507FC5BEFF3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WarehouseAutomation.DAL</RootNamespace>
-    <AssemblyName>WarehouseAutomation.DAL</AssemblyName>
+    <RootNamespace>WarehouseAutomation.Model</RootNamespace>
+    <AssemblyName>WarehouseAutomation.Model</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -44,7 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Context\" />
+    <Folder Include="Entity\" />
+    <Folder Include="Enum\" />
+    <Folder Include="InterFace\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
