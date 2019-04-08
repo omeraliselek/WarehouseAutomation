@@ -57,5 +57,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WarehouseAutomation.Model\WarehouseAutomation.Model.csproj">
+      <Project>{3dcedbb2-2e7c-4b04-9b87-3507fc5beff3}</Project>
+      <Name>WarehouseAutomation.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

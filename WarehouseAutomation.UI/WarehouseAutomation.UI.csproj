@@ -119,6 +119,16 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WarehouseAutomation.DAL\WarehouseAutomation.DAL.csproj">
+      <Project>{7800723b-9367-43f2-8815-c7f607c7cecf}</Project>
+      <Name>WarehouseAutomation.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WarehouseAutomation.Model\WarehouseAutomation.Model.csproj">
+      <Project>{3dcedbb2-2e7c-4b04-9b87-3507fc5beff3}</Project>
+      <Name>WarehouseAutomation.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
